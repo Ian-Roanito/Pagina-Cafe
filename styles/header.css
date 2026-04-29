@@ -1,0 +1,102 @@
+header {
+    position: sticky;
+    top: 0;
+    left: 0;
+    z-index: 50;
+    background-color: var(--color-5);
+    color: white;
+    padding: 40px 0px;
+    transition: 0.5s;
+}
+
+header.active {
+    padding: 20px 0px;
+    box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.589);
+}
+
+header .interface {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    .logo {
+        background-color: var(--color-1);
+        border-radius: 50%;
+        box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.582);
+
+        img {
+            width: 80px;
+        }
+    }
+
+    .menu-mobile {
+        padding: 5px 10px;
+        background-color: transparent;
+        border: 2px solid var(--color-1);
+        cursor: pointer;
+        display: none;
+
+        i {
+            font-size: 1.5em;
+            color: white;
+        }
+    }
+
+
+    .nav-list {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        list-style-type: none;
+        
+        
+        a {
+            margin-left: 30px;
+            text-decoration: none;
+            color: white;
+            padding-bottom: 5px;
+            transition: 0.5s ease;
+
+            &:hover {
+                color: var(--color-1);
+                border-bottom: 2px solid var(--color-1); 
+            }
+        }
+    }
+}
+
+
+@media screen and (max-width: 700px) {
+    nav {
+        position: absolute;
+        top: 170.71px;
+        left: 0;
+        z-index: 5;
+        background-color: var(--color-4);
+        width: 100%;
+        padding: 10px 0;
+        display: none;
+
+        .nav-list {
+            flex-direction: column;
+            gap: 20px;
+
+            a {
+                margin-left: 0 !important;
+        
+            }
+        }
+    }
+
+    header.active nav {
+        top: 130px;
+    }
+
+    .show {
+        display: block;
+    }
+
+    header .interface .menu-mobile{
+        display: block;
+   }
+}
