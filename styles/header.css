@@ -39,6 +39,7 @@ header .interface {
         i {
             font-size: 1.5em;
             color: white;
+            font-weight: 700; 
         }
     }
 
@@ -69,7 +70,7 @@ header .interface {
 @media screen and (max-width: 700px) {
     nav {
         position: absolute;
-        top: 170.71px;
+        top: 161.37px;
         left: 0;
         z-index: 5;
         background-color: var(--color-4);
@@ -89,7 +90,7 @@ header .interface {
     }
 
     header.active nav {
-        top: 130px;
+        top: 121.37px;
     }
 
     .show {
