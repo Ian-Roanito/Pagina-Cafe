@@ -17,6 +17,7 @@ main {
 /* Hero banner */
 .hero-banner {
     grid-area: 1 / 1 / 2 / 4;
+    margin-bottom: 20%;
 
     .hero-itens {
         display: flex;
@@ -34,9 +35,10 @@ main {
             text-align: center;
 
             h1 {
-                line-height: 40px;
+                line-height: 30px;
                 font-weight: 300;
                 color: var(--color-0);
+
                 span {
                     display: block;
                     font-weight: 700;
@@ -45,12 +47,17 @@ main {
 
             p {
                 color: var(--color-0);
-                font-size: 1.3em;
+                font-size: 1.2em;
                 margin-bottom: 10px
             }
 
             .btn-contato {
                 cursor: pointer;
+                box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.514);
+
+                &:hover {
+                    background-color: var(--color-5);
+                }
             }
         }
     }
@@ -168,6 +175,7 @@ section.card-3 {
     }
 }
 
+/* Mais Produtos */
 .mais-produtos {
     grid-area: 7 / 1 / 8 / 4;
     padding: 80px 0px;
@@ -189,7 +197,7 @@ section.card-3 {
                 span {
                     font-weight: 700;
                     display: block;
-                    color: var(--variante-color1);
+                    color: var(--color-5);
                 }
             }
         }
