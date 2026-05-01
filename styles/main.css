@@ -114,3 +114,71 @@ section.card-3 {
     }
 }
 
+/* Descrição */
+
+.descricao {
+    grid-area: 6 / 1 / 7 / 4;
+    background-color: var(--color-0);
+    padding: 20px 10px;
+    border-radius: 10px;
+}
+
+.grid-descricao {
+    display: grid;
+    grid-auto-rows: auto;
+    grid-auto-columns: repeat(4, auto);
+    gap: 50px;
+
+    .txt-descricao {
+        grid-area: 1 / 2 / 2 / 4;
+        background-color: var(--color-4);
+        padding: 10px;
+        box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.575);
+
+        .titulo-descricao {
+            width: 190px;
+            margin-bottom: 5px;
+            position: relative;
+
+            h2 {
+                color: var(--color-0);
+            }
+
+            &::after {
+                content: '';
+                position: absolute;
+                bottom: 0;
+                left: 0;
+                width: 100%;
+                height: 2px;
+                background: white;
+
+            }
+        }
+
+        .paragrafo {
+            
+            background: url('../imagnes/outras/imagem-fundo-paragrafo.png') center center no-repeat scroll;
+            background-size: cover;
+            background-color: var(--color-1);
+            border-radius: 15px;
+            margin: 10px 0;
+            padding: 15px;
+
+            p {
+                font-weight: 700;
+                color: white;
+            }
+        }
+    }
+
+    .img-descricao {
+        grid-area: 2 / 1 / 3 / 5;
+        text-align: center;
+
+        img {
+            width: 300px;
+            filter: drop-shadow(0px 0px 10px rgba(0, 0, 0, 0.479));
+        }
+    }
+}
