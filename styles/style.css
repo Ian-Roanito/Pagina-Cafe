@@ -12,6 +12,8 @@
 }
 
 
+
+
 :root {
     --color-0: #fff;
     --color-1: #db9c60;
@@ -23,6 +25,26 @@
     --variante-color1: yellow;
 
     --font-padrao: 'Poppins', sans-serif;
+}
+
+.grid-pai {
+    
+    height: 100vh;
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+    grid-template-columns: auto auto auto;
+}
+
+#header {
+    grid-area: 1 / 1 / 2 / 4;
+}
+
+#main {
+    grid-area: 2 / 1 / 3 / 4;
+}
+
+#footer {
+    grid-area: 3 / 1 / 4 / 4;
 }
 
 .interface {
