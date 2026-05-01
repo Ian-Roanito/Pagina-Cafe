@@ -54,11 +54,13 @@
 }
 
 .btn {
+    width: 150px;
     padding: 10px 20px;
     font-size: 1.2em;
     background-color: var(--color-4);
     border: none;
     color: var(--color-0);
+    transition: 0.5s;
 }
 
 .paragrafo {
