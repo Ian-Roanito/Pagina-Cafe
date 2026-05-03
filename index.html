@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="styles/style.css">
+    <link rel="stylesheet" href="styles/responsivo.css" media="screen">
     
 
     <!-- Bootstrap icons -->
@@ -12,7 +13,7 @@
     <!-- ----------------- -->
 </head>
 <body>
-
+    <!-- GRID PAI - para estruturar o layout todo -->
     <div class="grid-pai">
         <!-- HEADER -->
         <header id="header">
@@ -41,7 +42,7 @@
                     <section class="hero-banner">
                         <div class="hero-itens">
                             <div class="hero-img">
-                                <img src="imagnes/café-banner.png" alt="">
+                                <img src="imagnes/café-banner.png" alt="Imagem Café">
                             </div>
                             <div class="hero-txt">
                                 <h1>Venha tomar os <span>Melhores cafés</span></h1>
@@ -56,38 +57,40 @@
                     <div class="titulo-style mais-vendidos">
                         <h2>Veja os mais vendido</h2>
                     </div>
-                    <section class="card-bloco card-1">
-                        <div class="card">
-                            <div class="img-card">
-                                <img src="imagnes/cappuccino.png" alt="Cappucchino">
+                    <section class="cards">
+                        <section class="card-bloco card-1">
+                            <div class="card">
+                                <div class="img-card">
+                                    <img src="imagnes/cappuccino.png" alt="Cappucchino">
+                                </div>
+                                <p>5 <i class="fa-solid fa-star" style="color: rgb(255, 212, 59);"></i></p>
+                                <div class="nome-card">
+                                    <h3>Cappuchino</h3>
+                                </div>
                             </div>
-                            <p>5 <i class="fa-solid fa-star" style="color: rgb(255, 212, 59);"></i></p>
-                            <div class="nome-card">
-                                <h3>Cappuchino</h3>
+                        </section>
+                        <section class="card-bloco card-2">
+                            <div class="card">
+                                <div class="img-card">
+                                    <img src="imagnes/Macchiato.png" alt="Macchiato">
+                                </div>
+                                <p>5 <i class="fa-solid fa-star" style="color: rgb(255, 212, 59);"></i></p>
+                                <div class="nome-card">
+                                    <h3>Macchiato</h3>
+                                </div>
                             </div>
-                        </div>
-                    </section>
-                    <section class="card-bloco card-2">
-                        <div class="card">
-                            <div class="img-card">
-                                <img src="imagnes/Macchiato.png" alt="Macchiato">
+                        </section>
+                        <section class="card-bloco card-3">
+                            <div class="card">
+                                <div class="img-card">
+                                    <img src="imagnes/Expresso.png" alt="Expresso">
+                                </div>
+                                <p>5 <i class="fa-solid fa-star" style="color: rgb(255, 212, 59);"></i></p>
+                                <div class="nome-card">
+                                    <h3>Expresso</h3>
+                                </div>
                             </div>
-                            <p>5 <i class="fa-solid fa-star" style="color: rgb(255, 212, 59);"></i></p>
-                            <div class="nome-card">
-                                <h3>Macchiato</h3>
-                            </div>
-                        </div>
-                    </section>
-                    <section class="card-bloco card-3">
-                        <div class="card">
-                            <div class="img-card">
-                                <img src="imagnes/Expresso.png" alt="Expresso">
-                            </div>
-                            <p>5 <i class="fa-solid fa-star" style="color: rgb(255, 212, 59);"></i></p>
-                            <div class="nome-card">
-                                <h3>Expresso</h3>
-                            </div>
-                        </div>
+                        </section>
                     </section>
                     <!-- SEÇÃO DE DESCRIÇÃO -->
                     <section class="descricao">
@@ -225,4 +228,3 @@
     <script src="scripts/menu-moile.js"></script>
     <script src="https://kit.fontawesome.com/3a4a8b30ac.js" crossorigin="anonymous"></script>
 </body>
-</html>
