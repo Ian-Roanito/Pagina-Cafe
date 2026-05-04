@@ -12,9 +12,8 @@
     font-family: var(--font-padrao);
 }
 
-html, body {
+html {
     scroll-behavior: smooth;
-    height: 235%;
 }
 
 
