@@ -12,6 +12,10 @@
     font-family: var(--font-padrao);
 }
 
+html, body {
+    scroll-behavior: smooth;
+    height: 235%;
+}
 
 
 
@@ -30,7 +34,6 @@
 }
 
 .grid-pai {
-    
     height: 100vh;
     display: grid;
     grid-template-rows: auto 1fr auto;
