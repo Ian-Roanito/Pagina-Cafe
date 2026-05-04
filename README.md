@@ -3,7 +3,7 @@
 - Uma página dedicada a mostrar os produtos de uma cafeteria, não está o mais moderno mas para mim já foi um avanço na criação de página web.
 
 ## Visualização da página
-<img scr="imagens/imagem-site/image-do-site.jpeg">
+<img scr="imagnes/imagem-site/image-do-site.jpeg">
 
 
 ## Tecnologias e linguagens usadas
