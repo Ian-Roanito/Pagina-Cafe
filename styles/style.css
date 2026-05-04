@@ -12,9 +12,12 @@
     font-family: var(--font-padrao);
 }
 
+<<<<<<< HEAD
 html {
     scroll-behavior: smooth;
 }
+=======
+>>>>>>> parent of 9558804 (Finalizando)
 
 
 
@@ -33,6 +36,7 @@ html {
 }
 
 .grid-pai {
+    
     height: 100vh;
     display: grid;
     grid-template-rows: auto 1fr auto;
