@@ -113,6 +113,9 @@
 @media screen and (min-width: 830px) and (max-width: 1215px) {
 
     
+    .mais-produtos .grid-mais-produtos {
+        grid-template-columns: repeat(2, 1fr);
+    }
     
 
     .card-produto1 {
@@ -121,7 +124,7 @@
     }
 
     .card-produto2 {
-        grid-area: 1 / 3 / 2 / 4 !important;
+        grid-area: 1 / 2 / 2 / 3 !important;
         margin: auto;
     }
 
@@ -131,7 +134,7 @@
     }
 
     .card-produto4 {
-        grid-area: 2 / 3 / 3 / 4 !important;
+        grid-area: 2 / 2 / 3 / 3 !important;
         margin: auto;
     }
 }
